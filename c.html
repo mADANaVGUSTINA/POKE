@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>PokeInfo</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/c.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header id="shapka">
+            <a href="a.html">Base</a>
+            <a href="b.html">Pagination</a>
+            <a href="c.html">Sorting</a>
+            <a href="d.html">Filtration</a>
+        </header>
+
+        <h1>Kanto's pokemons</h1>
+
+        <form>
+            <div id="s1">
+                <label for="id">ID:</label>
+                <input type="radio" id="id" name="sort" value="id" checked>
+                <label for="id">HP:</label>
+                <input type="radio" id="hp" name="sort" value="hp" >
+                <label for="id">ATTACK:</label>
+                <input type="radio" id="attack" name="sort" value="attack" >
+                <label for="id">SHIELD:</label>
+                <input type="radio" id="shield" name="sort" value="shield" >
+                <label for="id">SPEED:</label>
+                <input type="radio" id="speed" name="sort" value="speed" >
+            </div><br>
+            <div id="s2">
+                <label for="downToUp">FROM SMALLER TO LARGER</label>
+                <input type="radio" id="downToUp" name="order" value="downToUp">
+                <label for="opToDown">FROM LARGER TO SMALLER</label>
+                <input type="radio" id="upToDown" name="order" value="upToDown"> 
+            </div>
+        </form>
+        <main>
+
+        </main>
+        <script src="js/c.js"></script>
+    </body>
+</html>

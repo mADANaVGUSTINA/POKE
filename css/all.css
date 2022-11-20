@@ -1,0 +1,28 @@
+
+a{
+    color: beige;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+#shapka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    width: min-content;
+    height: 2rem;
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    gap: 15px;
+}
+body{
+    background-image: url('back.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

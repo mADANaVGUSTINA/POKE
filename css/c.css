@@ -1,0 +1,53 @@
+h1{
+    color: beige;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 45px;
+    width: 25rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    color: beige;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    position: sticky;
+    top: 10px;
+}
+#pokemontik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    width: 15rem;
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    gap: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: beige;
+    margin: 2rem;
+}
+#stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

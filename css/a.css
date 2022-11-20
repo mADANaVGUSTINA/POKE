@@ -1,0 +1,65 @@
+body{
+    background-image: url('back.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#heder{
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    width: min-content;
+    height: 2rem;
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    gap: 15px;
+}
+#search{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid beige;
+    color: beige;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background: none;
+    border: none;
+    outline: none;
+    color: beige;
+    cursor: pointer;
+}
+#pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px;
+    width: min-content;
+    border-radius: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    gap: 15px;
+}
+h3{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h2{
+    color: beige;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: maroon;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+img{
+    height: 15rem;
+}

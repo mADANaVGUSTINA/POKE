@@ -1,0 +1,63 @@
+#sorting{
+    color: beige;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid beige;
+    color: beige;
+}
+#filters{
+    display: grid;
+    grid-template-rows: 2fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 4px;
+    
+}
+#checkbox{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr 3fr;
+    grid-auto-flow: row;
+    width: 100%;
+    justify-items: start;
+    justify-content: center;
+    margin-left: 60px;
+}
+#bttn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 45px;
+    border: none;
+    color: beige;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 20px;
+    font-size: 17px;
+}
+#bttn:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.name{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#name{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}

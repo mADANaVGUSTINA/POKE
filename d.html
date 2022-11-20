@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>PokeInfo</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/d.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header id="shapka">
+            <a href="a.html">Base</a>
+            <a href="b.html">Pagination</a>
+            <a href="c.html">Sorting</a>
+            <a href="d.html">Filtration</a>
+        </header><br>
+        <form id="sorting">
+            <legend>FILTER BY:</legend>
+            <div id="filters">
+                <label class="name">NAME</label>
+                <input type="text" id="name">
+
+                <label>MIN HP</label>
+                <input type="range" id="minHp" min="10" max="250" value="10">
+                <label>MAX HP</label>
+                <input type="range" id="maxHp" min="10" max="250" value="250">
+                <label>MIN ATTACK</label>
+                <input type="range" id="minAtck" min="5" max="130" value="5">
+                <label>MAX ATTACK</label>
+                <input type="range" id="maxAtck" min="5" max="130" value="130">
+                <label>MIN DEFENCE</label>
+                <input type="range" id="minDif" min="5" max="180" value="5">
+                <label>MAX DEFENCE</label>
+                <input type="range" id="maxDif" min="5" max="180" value="180">
+                <label>MIN SPEED</label>
+                <input type="range" id="minSpd" min="15" max="150" value="15">
+                <label>MAX SPEED</label>
+                <input type="range" id="maxSpd" min="15" max="150" value="150">
+                <label>MIN HEIGTH</label>
+                <input type="text" id="minH" value="2">
+                <label>MAX HEIGHT</label>
+                <input type="text" id="maxH" value="88">
+                <label>MIN WEIGHT</label>
+                <input type="text" id="minW" value="1">
+                <label>MAX WEIGHT</label>
+                <input type="text" id="maxW" value="3000">
+            </div>
+            <br><br>
+            <div id="checkbox">
+                <label>NORMAL</label>
+                <input type="checkbox" name = "type" id="normal" value="normal" checked>
+                <label>FIRE</label>
+                <input type="checkbox" name = "type" id="fire" value="fire" checked>
+                <label>WATER</label>
+                <input type="checkbox" name = "type" id="water" value="water" checked>
+                <label>GRASS</label>
+                <input type="checkbox" name = "type" id="grass" value="grass" checked>
+                <label>FLYING</label>
+                <input type="checkbox" name = "type" id="flying" value="flying" checked>
+                <label>FIGHTING</label>
+                <input type="checkbox" name = "type" id="fighting" value="fighting" checked>
+                <label>POISON</label>
+                <input type="checkbox" name = "type" id="poison" value="poison" checked>
+                <label>ELECTRIC</label>
+                <input type="checkbox" name = "type" id="electric" value="electric" checked>
+                <label>GROUND</label>
+                <input type="checkbox" name = "type" id="ground" value="ground" checked>
+                <label>ROCK</label>
+                <input type="checkbox" name = "type" id="rock" value="rock" checked>
+                <label>PSYCHIC</label>
+                <input type="checkbox" name = "type" id="psychic" value="psychic" checked>
+                <label>ICE</label>
+                <input type="checkbox" name = "type" id="ice" value="ice" checked>
+                <label>BUG</label>
+                <input type="checkbox" name = "type" id="bug" value="bug" checked>
+                <label>GHOST</label>
+                <input type="checkbox" name = "type" id="ghost" value="ghost" checked>
+                <label>STEEL</label>
+                <input type="checkbox" name = "type" id="steel" value="steel" checked>
+                <label>DRAGON</label>
+                <input type="checkbox" name = "type" id="dragon" value="dragon" checked>
+                <label>DARK</label>
+                <input type="checkbox" name = "type" id="dark" value="dark" checked>
+                <label>FAIRY</label>
+                <input type="checkbox" name = "type" id="fairy" value="fairy" checked>
+                <label>UNKNOWN</label>
+                <input type="checkbox" name = "type" id="unknown" value="unknown" checked>
+                <label>SHADOW</label>
+                <input type="checkbox" name = "type" id="shadow" value="shadow" checked>
+            </div>
+            <input type="submit" value="USE FILTERS" id="bttn">
+        </form>
+        <main>
+
+        </main>
+        <script src="js/d.js"></script>
+    </body>
+</html>
